@@ -1,0 +1,46 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/projects/real-estate-ai",
+      "destination": "/work/property-platform",
+      "permanent": true
+    },
+    {
+      "source": "/projects/pulse",
+      "destination": "/work/pulse",
+      "permanent": true
+    },
+    {
+      "source": "/projects/mcp-connector-factory",
+      "destination": "/work/mcp-connectors",
+      "permanent": true
+    },
+    {
+      "source": "/projects/latchkey",
+      "destination": "/work/latchkey",
+      "permanent": true
+    },
+    {
+      "source": "/projects/recapai",
+      "destination": "/work/recapai",
+      "permanent": true
+    }
+  ]
+}

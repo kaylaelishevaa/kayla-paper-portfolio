@@ -1,0 +1,178 @@
+/* A cover to open, with a compact identity inside. */
+.marker-highlight{background:linear-gradient(177deg,transparent 46%,#e5dfa595 47%,#e5dfa595 90%,transparent 91%);padding-inline:.1em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.marker-rose{background-image:linear-gradient(178deg,transparent 47%,#ead0d995 48%,#ead0d995 91%,transparent 92%)}
+.marker-blue{background-image:linear-gradient(177deg,transparent 48%,#cbdde39e 49%,#cbdde39e 90%,transparent 91%)}
+.pencil-underline{position:relative;display:inline-block;isolation:isolate}
+.pencil-underline:after{content:'';position:absolute;inset:auto -2% -.06em;height:.13em;border-bottom:2px solid #b591a1;border-radius:35% 50%;transform:rotate(-2deg);pointer-events:none;opacity:.8}
+.folder-cream{background:#f1e9d8}
+.cover-desk{max-width:1100px}
+.cover-desk .folder-navigation{margin-left:35px}
+.scrapbook-cover{position:relative;background-color:#dfe5d6;background-image:repeating-linear-gradient(90deg,#a2b19908 0,#a2b19908 1px,transparent 1px,transparent 3px),repeating-linear-gradient(0deg,#899b7d06 0,#899b7d06 1px,transparent 1px,transparent 3px);border:1px solid #b8c4af;border-radius:12px 9px 9px 12px;box-shadow:5px 6px 0 #eff0e5,6px 7px 0 #b9c4b0,10px 11px 0 #d4ddcb,11px 12px 0 #adbca1,13px 22px 30px #526e5e18;padding-left:35px;margin-bottom:28px;isolation:isolate}
+.scrapbook-cover:before{content:'';position:absolute;inset:12px 13px 12px 48px;border:1px dashed #9eaf9566;border-radius:5px;z-index:-1}
+.cover-spine{position:absolute;left:0;top:0;bottom:0;width:35px;border-radius:12px 0 0 12px;background:linear-gradient(90deg,#a7b79c,#d1ddc6 23%,#c7d4bb 66%,#a7b99d);box-shadow:inset -3px 0 8px #798e7138;border-right:1px solid #9eaf94;display:flex;align-items:center;justify-content:center}
+.cover-spine span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:10px;letter-spacing:6px;color:#6e8265}
+.cover-layout{position:relative;padding:45px 49px 22px;display:grid;grid-template-columns:1.1fr 1fr;column-gap:24px;align-items:center}
+.cover-nameplate{position:relative;background:#fbf9f0;border:1px solid #d9dacb;box-shadow:3px 5px 0 #bcc9b531;padding:26px 30px 23px;transform:rotate(-2deg);max-width:440px;z-index:2}
+.cover-nameplate>.tape{position:absolute;top:-10px;left:34%;width:95px;height:22px;transform:rotate(3deg);background:#cfdae3a8}
+.cover-owner{font-size:9px;letter-spacing:1.1px;color:#7e8b78;margin:0 0 18px;line-height:1.4}
+.cover-nameplate h1{font:700 clamp(64px,6.6vw,86px)/.95 var(--display);letter-spacing:-4.5px;margin:0 0 23px;position:relative}
+.cover-nameplate h1>span{display:table;position:relative;isolation:isolate}
+.cover-nameplate .name-highlight:before{content:'';position:absolute;inset:51% -4% -1% -3%;background:#e9cfd7b8;clip-path:polygon(2% 8%,95% 0,100% 89%,4% 100%,0 65%);z-index:-1;transform:rotate(-1.2deg)}
+.cover-name-star{display:inline-block;font:48px var(--hand);color:#8aa4b4;transform:rotate(15deg);margin-left:17px;vertical-align:middle}
+.cover-role{font-size:17px;line-height:1.7;color:#46534b;margin:0}
+.cover-school{font-size:11px;line-height:1.6;color:#7c8574;margin:6px 0 0}
+.cover-person{position:relative;min-width:0;align-self:center}
+.cover-person .hero-stage{width:100%;height:370px;margin:0;max-width:none}
+.cover-person .avatar-scene{width:350px;height:350px;max-width:100%;margin:0 auto}
+.cover-person .avatar-caption{left:0;right:0;text-align:center;bottom:-15px;font-size:21px;color:#637f92;transform:rotate(-4deg);white-space:nowrap}
+.cover-person .hi-bubble{top:4px;left:4px;font-size:25px;z-index:4}
+.cover-person .hero-star{width:40px;height:40px;min-width:40px;min-height:40px}
+.cover-person .hero-star .doodle-icon{width:30px;height:30px}
+.cover-person .star-left{left:0;top:75px}.cover-person .star-right{right:-8px;top:232px}
+.cover-flower{position:absolute;right:1px;top:4px;width:60px;height:60px;display:grid;place-items:center;background:#f8f0d3;border:1px solid #d7c9aa;border-radius:44% 55% 43% 53%;color:#a88d53;transform:rotate(13deg);box-shadow:2px 2px 0 #b4c2a826}
+.cover-flower>.doodle-icon{width:35px;height:35px}
+.cover-bottom{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:31px;padding:0 7px}
+.cover-intro>.hand{font-size:28px;line-height:1.2;color:#607658;transform:rotate(-2deg);display:block;max-width:310px}
+.cover-intro .pencil-underline:after{border-color:#95a47e;border-width:1.5px}
+.open-scrapbook{display:inline-flex;flex-direction:column;gap:3px;padding:17px 21px;background:#fbf8e9;border:1px solid #b6c1a7;border-radius:2px 8px 3px 3px;box-shadow:3px 4px 0 #b1bea451;transform:rotate(1deg);color:#455143;transition:transform .45s var(--spring),box-shadow .4s}
+.open-scrapbook:hover{transform:rotate(-1deg) translateY(-4px);box-shadow:4px 7px 0 #b1bea451}
+.open-scrapbook strong{display:flex;align-items:center;gap:19px;font-size:16px;font-weight:500;white-space:nowrap}
+.open-scrapbook .doodle-icon{width:30px;height:30px}
+.cover-margin{grid-column:1/-1;text-align:right;margin:20px 7px 0}
+.cover-margin>.tiny{font-size:8px;letter-spacing:.4px;color:#819077}
+.cover-desk .desk-footer,.inside-desk .desk-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:5px}
+.desk-footer>small{margin:0;white-space:nowrap}
+/* The cover holds the introduction; inner pages give the content more room. */
+.inside-desk .book-shell{grid-template-columns:185px 27px minmax(0,1fr)}
+.inside-desk .book-shell:before{width:185px}
+.inside-desk .folder-navigation{margin-left:210px}
+.inside-desk .author-page{padding:23px 15px 28px}
+.inside-desk .author-inner{top:90px;text-align:left}
+.inside-desk .author-label{margin:0 0 9px;display:block;max-width:none}
+.inside-desk .author-label>.tiny{font-size:6.7px;letter-spacing:.5px;max-width:none;white-space:nowrap;line-height:1.3}
+.inside-desk .author-name{padding:0;margin:0;font-size:35px;letter-spacing:-1.3px;line-height:1}
+.inside-desk .author-name>span{display:block;position:static;transform:none;color:inherit;font-family:var(--display);font-weight:600;line-height:1.08;letter-spacing:-1px}
+.inside-desk .author-name>.author-given{font-size:35px}
+.inside-desk .author-name>.author-family{font-size:24px;margin-top:3px;letter-spacing:-.8px}
+.inside-desk .author-role{font-size:10px;line-height:1.65;margin:12px 0 0;padding:0;max-width:none}
+.inside-desk .author-page .hero-stage{width:157px;height:178px;max-width:none;margin:13px -2px 0}
+.inside-desk .author-page .avatar-scene{width:157px;height:157px}
+.inside-desk .author-page .avatar-caption{font-size:14px;bottom:-13px;left:0}
+.inside-desk .author-page .hi-bubble{font-size:17px;top:-7px;left:-5px;padding-inline:8px}
+.inside-desk .author-page .star-left{left:-8px;top:39px}
+.inside-desk .author-page .star-right{right:-10px;top:102px}
+.inside-desk .author-page .hero-star .doodle-icon{width:19px;height:19px}
+.inside-desk .author-page .floating-note{width:145px;margin:31px auto 0}
+.inside-desk .author-page .sticky-front,.inside-desk .author-page .sticky-back{padding:18px 12px 11px;min-height:112px}
+.inside-desk .author-page .sticky-front .tiny,.inside-desk .author-page .sticky-front small{display:none}
+.inside-desk .author-page .sticky-front .hand,.inside-desk .author-page .sticky-back .hand{font-size:21px;line-height:1.05}
+.inside-desk .author-page .sticky-front .doodle-icon{width:20px;height:20px;bottom:11px}
+.inside-desk .author-page .tape{width:49px;left:calc(50% - 24px);height:15px;top:-7px}
+.inside-desk .page-registration{margin-bottom:24px}
+.inside-desk .scrap-heading{padding:0 0 30px}
+.inside-desk .scrap-heading h1{font-size:50px}
+.community-brief{display:flex;align-items:start;gap:18px;padding:23px 24px}
+.community-brief .community-date{display:block;font-size:9px;letter-spacing:.7px;margin-bottom:6px;color:#929780}
+.community-brief h2{font-size:24px;line-height:1.15}
+.community-brief p{font-size:13px;line-height:1.6;color:#7f897c;margin-top:5px}
+.community-brief .community-number{padding-top:15px}
+@media(max-width:1100px){
+.cover-layout{padding:38px 37px 20px;gap:24px 15px}.cover-nameplate{padding:23px 24px}.cover-nameplate h1{font-size:72px}.cover-role{font-size:15px}.cover-school{font-size:10px}.cover-person .hero-stage{height:320px}.cover-person .avatar-scene{width:300px;height:300px}.cover-person .star-right{top:210px;right:-4px}.cover-flower{width:50px;height:50px}.cover-bottom{margin-top:15px}.cover-intro>.hand{font-size:25px}.open-scrapbook{padding:14px 17px}.open-scrapbook strong{font-size:14px;gap:10px}
+.inside-desk .folder-tab{min-width:80px;padding-inline:8px;font-size:10px;gap:6px}.inside-desk .tab-number{font-size:16px}.inside-desk .scrap-heading h1{font-size:44px}
+}
+@media(max-width:850px) and (min-width:651px){
+.cover-layout{padding:31px 25px 20px;gap:20px 12px}.cover-nameplate{padding:23px 20px}.cover-nameplate h1{font-size:59px;letter-spacing:-3px}.cover-person .hero-stage{height:260px}.cover-person .avatar-scene{width:250px;height:250px}.cover-person .star-right{top:180px}.cover-person .avatar-caption{font-size:17px}.cover-role{font-size:14px}.cover-school{font-size:10px}.cover-flower{right:-5px;top:-12px;width:44px;height:44px}.cover-name-star{font-size:36px;margin-left:10px}.cover-bottom{padding:0;gap:15px}.cover-intro>.hand{font-size:24px;max-width:230px}.open-scrapbook{padding:12px 13px}.open-scrapbook strong{font-size:13px;gap:8px}
+.inside-desk .book-shell{grid-template-columns:155px 22px minmax(0,1fr)}.inside-desk .book-shell:before{width:155px}.inside-desk .folder-navigation{margin-left:175px;gap:3px}.inside-desk .folder-tab{min-width:65px;gap:4px;padding-inline:6px;font-size:9px}.inside-desk .tab-number{font-size:14px}.inside-desk .author-page{padding:22px 12px}.inside-desk .author-name>.author-family{font-size:21px}.inside-desk .author-name>.author-given{font-size:31px}.inside-desk .author-label>.tiny{font-size:5.8px}.inside-desk .author-role{font-size:9px}.inside-desk .author-page .hero-stage{width:132px;height:155px}.inside-desk .author-page .avatar-scene{width:132px;height:132px}.inside-desk .author-page .avatar-caption{font-size:12px}.inside-desk .author-page .floating-note{width:124px}.inside-desk .author-page .sticky-front .hand,.inside-desk .author-page .sticky-back .hand{font-size:19px}.inside-desk .scrap-heading h1{font-size:39px}
+}
+@media(max-width:650px){
+.cover-desk .folder-navigation,.inside-desk .folder-navigation{margin-left:0}
+.cover-desk .folder-tab,.inside-desk .folder-tab{min-width:83px;font-size:11px;padding-inline:9px;gap:5px}
+.cover-desk .tab-number,.inside-desk .tab-number{font-size:16px}
+.scrapbook-cover{padding-left:17px;border-radius:7px;box-shadow:3px 4px 0 #eff0e5,4px 5px 0 #b9c4b0,7px 8px 0 #d4ddcb,8px 9px 0 #adbca1,9px 14px 20px #526e5e12}
+.cover-spine{width:17px;border-radius:7px 0 0 7px}.cover-spine span{font-size:7px;letter-spacing:4px}.scrapbook-cover:before{inset:9px 9px 9px 26px}
+.cover-layout{padding:28px 21px 17px;display:block}
+.cover-nameplate{max-width:none;padding:20px 22px 19px;transform:rotate(-1.5deg)}.cover-nameplate h1{font-size:64px;line-height:.91;letter-spacing:-3.8px;margin-bottom:17px}.cover-owner{font-size:7px;letter-spacing:.6px;margin-bottom:13px}.cover-role{font-size:14px}.cover-school{font-size:10px}.cover-name-star{font-size:36px;margin-left:11px}.cover-nameplate>.tape{width:67px;height:18px;top:-8px}
+.cover-person{width:210px;position:relative;margin:10px auto 0}.cover-person .hero-stage{height:215px}.cover-person .avatar-scene{width:210px;height:210px}.cover-person .avatar-caption{font-size:16px;bottom:-10px}.cover-person .hi-bubble{font-size:20px;top:0;left:-7px}.cover-person .star-left{left:-23px;top:51px}.cover-person .star-right{right:-14px;top:145px}.cover-person .hero-star .doodle-icon{width:23px;height:23px}.cover-flower{top:11px;right:-24px;width:39px;height:39px}.cover-flower>.doodle-icon{width:25px;height:25px}
+.cover-bottom{display:flex;flex-direction:column;gap:17px;margin-top:24px;padding:0}.cover-intro>.hand{font-size:23px;text-align:center;max-width:none}.cover-intro .pencil-underline{display:block}.open-scrapbook{padding:13px 18px}.open-scrapbook strong{font-size:14px;gap:15px}.open-scrapbook .doodle-icon{width:28px;height:28px}.cover-margin{margin:20px 0 0;text-align:center}.cover-margin>.tiny{font-size:8px}
+.cover-desk .desk-footer,.inside-desk .desk-footer{flex-direction:column;align-items:start;gap:0;padding-top:0}.desk-footer>div{width:100%;gap:14px}.desk-footer>small{margin-top:0;font-size:8px}
+.inside-desk .book-shell{display:flex}.inside-desk .book-shell:before{width:100%;height:151px}
+.inside-desk .author-page{min-height:151px;padding:20px 19px}
+.inside-desk .author-inner{display:block;position:relative;min-height:110px;top:auto;padding-right:112px;text-align:left}
+.inside-desk .author-label{margin:0 0 7px}.inside-desk .author-label>.tiny{font-size:6px;max-width:none}.inside-desk .author-name{margin:0}.inside-desk .author-name>.author-given{font-size:29px}.inside-desk .author-name>.author-family{font-size:20px;white-space:nowrap}.inside-desk .author-role{font-size:9px;margin-top:10px;line-height:1.5;max-width:none}
+.inside-desk .author-page .hero-stage{position:absolute;top:-4px;right:-8px;width:118px;height:124px;margin:0}.inside-desk .author-page .avatar-scene{width:118px;height:118px}.inside-desk .author-page .avatar-caption{font-size:12px;bottom:-8px;left:-4px}.inside-desk .author-page .hi-bubble{font-size:14px;left:-7px;top:-5px}.inside-desk .author-page .hero-star{display:none}.inside-desk .author-page .floating-note{display:none}
+.inside-desk .scrap-heading h1{font-size:37px;line-height:1.12}.inside-desk .scrap-heading{padding-bottom:25px}.inside-desk .page-registration{margin-bottom:23px}.inside-desk .page-registration>.tiny{font-size:8px}
+.community-brief{padding:20px 16px;gap:12px}.community-brief h2{font-size:23px}.community-brief p{font-size:12px}.community-brief .community-date{font-size:9px}.community-brief .community-number{font-size:23px}
+}
+@media(max-width:350px){
+.cover-layout{padding:25px 16px 16px}.cover-nameplate{padding:19px 17px}.cover-nameplate h1{font-size:56px;letter-spacing:-3.1px}.cover-role{font-size:12px}.cover-school{font-size:9px}.cover-person{width:190px}.cover-person .hero-stage{height:196px}.cover-person .avatar-scene{width:190px;height:190px}.cover-person .star-left{left:-11px}.cover-person .star-right{right:-9px}.cover-flower{right:-10px}.cover-intro>.hand{font-size:21px}.open-scrapbook strong{font-size:13px}
+.inside-desk .author-page{padding:19px 14px}.inside-desk .author-inner{padding-right:98px}.inside-desk .author-name>.author-family{font-size:18px}.inside-desk .author-page .hero-stage{width:106px;height:116px;right:-8px;top:6px}.inside-desk .author-page .avatar-scene{width:106px;height:106px}.inside-desk .author-page .avatar-caption{font-size:10px}.inside-desk .author-role{font-size:8px}.inside-desk .author-label>.tiny{font-size:5.3px}.inside-desk .scrap-heading h1{font-size:33px}
+}
+@media print{.cover-desk .folder-navigation,.cover-spine{display:none}.scrapbook-cover{box-shadow:none;padding-left:0}.inside-desk .book-shell{display:block}}
+/* Ribbon bookmarks carry the reader from one page to the next. */
+.bookmark-navigation{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 4px 15px;margin-top:32px;border-top:1px solid #d7ddce}
+.page-bookmark{--ribbon:#e0e8d5;position:relative;width:152px;align-self:flex-start;flex-shrink:0;transform:rotate(-2deg);transform-origin:top center;filter:drop-shadow(2px 3px 1px #697a5920);transition:transform .45s var(--spring);color:#43513f;isolation:isolate}
+.page-bookmark:last-child{transform:rotate(2deg)}
+.page-bookmark:hover{transform:translateY(-5px) rotate(0)}
+.page-bookmark:focus-visible{outline:2px solid #6c8290;outline-offset:5px;border-radius:3px}
+.bookmark-ribbon{min-height:130px;display:flex;flex-direction:column;align-items:center;text-align:center;padding:32px 14px 24px;position:relative;gap:5px}
+.bookmark-ribbon:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#ffffff22,transparent 18%,transparent 82%,#687d5110),var(--ribbon);clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 16px),0 100%);z-index:-1}
+.bookmark-ribbon:after{content:'';position:absolute;top:0;left:0;right:0;height:6px;background:#71885d12;border-top:1px solid #8b9d7c30}
+.bookmark-eyelet{position:absolute;left:calc(50% - 3px);top:13px;width:6px;height:6px;border-radius:50%;background:var(--book-paper);box-shadow:0 0 0 1px #96a08870}
+.bookmark-eyelet:after{content:'';position:absolute;bottom:3px;left:0;width:10px;height:25px;border:1px solid #9b9d815e;border-bottom:0;border-radius:70% 70% 0 0;transform:rotate(-18deg);transform-origin:bottom}
+.bookmark-kicker{font-size:8px;letter-spacing:1px;text-transform:uppercase;color:#7c8972}
+.bookmark-ribbon strong{font:500 23px/1.05 var(--hand);overflow-wrap:anywhere}
+.bookmark-arrow{font:19px var(--hand);color:#7f9172;line-height:1;margin-top:1px}
+.bookmark-page-number{font-size:8px;letter-spacing:.7px;white-space:nowrap;color:#9aa28d}
+.bookmark-cream{--ribbon:#f0ecdf}.bookmark-blue{--ribbon:#dde7eb}.bookmark-mint{--ribbon:#e2e9d7}.bookmark-rose{--ribbon:#efdee3}.bookmark-yellow{--ribbon:#eee8cf}.bookmark-lilac{--ribbon:#e4deed}
+.cover-intro .pencil-underline{display:inline-block}
+.inside-desk .author-page .sticky-back>.hand{font-size:53px;text-align:center;line-height:1.3;color:#b38b99}
+.cover-desk .desk-footer>div,.inside-desk .desk-footer>div{justify-content:flex-start}
+@media(max-width:650px){.bookmark-navigation{gap:10px;padding:0 1px 13px;margin-top:26px}.page-bookmark{width:115px}.bookmark-ribbon{min-height:124px;padding:29px 9px 23px;gap:5px}.bookmark-ribbon strong{font-size:23px}.bookmark-kicker{font-size:7px;letter-spacing:.7px}.bookmark-page-number{font-size:7px;letter-spacing:0}.bookmark-ribbon:before{clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 13px),0 100%)}}
+@media(max-width:390px){.page-bookmark{width:99px}.bookmark-navigation{gap:7px}.bookmark-ribbon strong{font-size:20px}.bookmark-ribbon{min-height:119px;padding-inline:7px}.bookmark-kicker{font-size:6.5px}.bookmark-page-number{font-size:6.5px}}
+@media(prefers-reduced-motion:reduce){.page-bookmark{transition:none}}
+
+/* Keep the greeting together without crowding the phone header. */
+.contact-kaomoji{display:inline-block;font-family:system-ui,sans-serif;letter-spacing:0;margin-inline:4px}
+@media(max-width:650px){.desk-header{flex-wrap:wrap;column-gap:12px;row-gap:5px;height:auto;min-height:65px;padding-block:12px}.desk-hello{margin-left:auto;font-size:10px}.contact-kaomoji{margin-inline:2px}}
+/* Short project notes: the idea, its links, and the complete product flow. */
+.compact-project-header{padding:24px 0 26px}
+.compact-project-header h1{font:600 49px/1.05 var(--display);letter-spacing:-2px;margin:0 0 13px}
+.compact-project-header>p{font-size:15px;line-height:1.75;color:#788271;max-width:640px;margin:0}
+.compact-project-links{display:flex;align-items:center;flex-wrap:wrap;gap:12px 20px;margin-top:21px}
+.project-resource-link{display:inline-flex;align-items:center;gap:10px;font-size:12px;padding:10px 13px;min-height:44px;border:1px solid #bdc8b3;border-radius:3px 7px 3px 5px;background:#e8eddc;transform:rotate(-1deg);transition:transform .4s var(--spring)}
+.project-resource-link.resource-github{background:#f6f2e6;border-color:#d8d3c3;transform:rotate(.8deg)}
+.project-resource-link>.doodle-icon{width:20px;height:20px}
+.project-resource-link>span:last-child{color:#859375;margin-left:3px}
+.resource-pending{font-size:10px;color:#95988c;border-bottom:1px dashed #d2d6c6;padding:8px 0}
+.book-content .compact-project-flow{margin-top:0;padding-top:10px}
+.book-content .compact-project-flow>h2{font-size:28px;margin:0 0 16px}
+.book-content .compact-project-flow .flow-widget{padding-top:20px}
+.compact-project-flow .flow-topline{display:none}
+.compact-project-flow .flow-nodes{margin-top:0}
+.compact-project-flow .flow-node{min-height:145px}
+.compact-project-flow .flow-nodes:has(>.flow-node:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,1fr))}
+.compact-project-note{font-size:10px;color:#929b85;margin-top:12px}
+@media(max-width:650px){.compact-project-header{padding:23px 0 26px}.compact-project-header h1{font-size:39px;letter-spacing:-1.5px}.compact-project-header>p{font-size:14px}.compact-project-links{gap:10px 12px;margin-top:18px}.project-resource-link{font-size:12px;padding:9px 12px}.resource-pending{font-size:10px}.book-content .compact-project-flow>h2{font-size:25px;line-height:1.1}.compact-project-flow .flow-nodes:has(>.flow-node:nth-child(3):last-child){grid-template-columns:1fr}.compact-project-flow .flow-nodes:has(>.flow-node:nth-child(3):last-child) .node-arrow{display:none}.compact-project-note{font-size:10px;line-height:1.5}}
+
+/* Two selected experiments keep equal space in the project pocket. */
+.book-content .experiment-grid:has(>.experiment-card:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:650px){.book-content .experiment-grid:has(>.experiment-card:nth-child(2):last-child){grid-template-columns:1fr}}
+.supply-pair{display:flex;align-items:center;justify-content:center;gap:8px;position:absolute;inset:27px 12px 55px}
+.supply-agent{display:flex;flex-direction:column;align-items:center;justify-content:center;width:74px;min-height:91px;padding:12px 7px;background:#f7f7eb;border:1px solid #b8c3a5;border-radius:3px 8px 3px 5px;box-shadow:3px 4px 0 #72856818;transform:rotate(-7deg);color:#849577}
+.supply-supplier{transform:rotate(8deg);background:#e1e9d6;color:#718766}
+.supply-agent .doodle-icon{width:39px;height:39px}
+.supply-agent small{font:19px var(--hand);margin-top:6px}
+.supply-exchange{font-size:29px;color:#91a27e}
+
+/* Kayla's little portrait travels with each scrapbook chapter. */
+.scrapbook-wordmark .kayla-doodle{width:47px;height:47px;flex-shrink:0;transform-origin:50% 80%;animation:doodle-hello .65s var(--spring) backwards;overflow:visible}
+.scrapbook-wordmark:hover .kayla-doodle{transform:rotate(-7deg)}
+@keyframes doodle-hello{0%{transform:rotate(-12deg) scale(.8)}45%{transform:rotate(7deg) scale(1.08)}75%{transform:rotate(-3deg) scale(.98)}100%{transform:rotate(0) scale(1)}}
+.upcoming-project{display:flex;align-items:center;gap:15px;border:1px dashed #c9ccb9;background:#f0eee159;border-radius:3px 7px 2px 5px;padding:17px 21px;margin-top:26px;color:#89977c}
+.upcoming-code{font:32px var(--hand);transform:rotate(-7deg);flex-shrink:0}
+.upcoming-project h3{font:500 14px 'DM Sans',sans-serif;letter-spacing:0;margin:0;color:#717e65}
+.upcoming-project .hand{font-size:23px;line-height:1.3;color:#a191a9}
+.upcoming-pen{margin-left:auto;transform:rotate(-11deg);color:#a5a18b}
+.upcoming-pen .doodle-icon{width:31px;height:31px}
+@media(max-width:650px){.scrapbook-wordmark .kayla-doodle{width:37px;height:37px}.upcoming-project{padding:15px;gap:12px}.upcoming-project h3{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.scrapbook-wordmark .kayla-doodle{animation:none}}

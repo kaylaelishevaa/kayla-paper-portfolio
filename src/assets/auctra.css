@@ -1,0 +1,73 @@
+.auctra-study{--case-line:#d9ddcf;--case-muted:#74806a;color:var(--ink)}
+.auctra-header{padding:28px 0 30px}
+.auctra-header>.tiny{color:var(--case-muted);letter-spacing:1.1px}
+.auctra-header h1{font:600 62px/1.02 var(--display);letter-spacing:-2.8px;margin:15px 0 7px}
+.auctra-thesis{font-size:34px;line-height:1.2;margin:0 0 18px;color:#8c7999}
+.auctra-lead{font-size:16px;line-height:1.8;max-width:640px;color:var(--case-muted);margin:0}
+.auctra-context{display:flex;flex-wrap:wrap;gap:9px 21px;margin-top:21px;font-size:10px;color:#7a826e}
+.auctra-context>span{border-bottom:1px dashed #bcc6ae;padding-bottom:5px}
+.auctra-index{display:flex;flex-wrap:wrap;gap:10px 23px;padding:18px 0;border-top:1px solid var(--case-line);border-bottom:1px solid var(--case-line)}
+.auctra-index a{font:22px/1.2 var(--hand);color:#789087;transition:transform .4s var(--spring);padding:4px 0}
+.auctra-index a:hover{transform:translateY(-3px) rotate(-2deg);color:var(--ink)}
+.auctra-section{padding:41px 0 35px;border-bottom:1px solid var(--case-line);scroll-margin-top:110px}
+.auctra-section>.tiny{color:#929b86;letter-spacing:1px}
+.auctra-study h2{font:600 29px/1.2 var(--display);letter-spacing:-.9px;margin:13px 0 18px}
+.auctra-study h2.hand{font:500 35px/1.2 var(--hand);letter-spacing:0;color:#82978e}
+.auctra-section p{font-size:14px;line-height:1.85;color:var(--case-muted);margin:0 0 14px}
+.auctra-section>p{max-width:720px}
+.auctra-study h3{font:600 17px/1.35 var(--display);letter-spacing:-.2px;margin:0 0 9px}
+.auctra-two-col{display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:start}
+.auctra-question-note{background:#eee9f3;border:1px solid #dcd2e4;padding:22px 24px 18px;transform:rotate(1deg);box-shadow:2px 3px 0 #aba09418;border-radius:2px 7px 3px 5px}
+.auctra-question-note>.hand{font-size:25px;color:#9a84a7}
+.auctra-question-note p{margin:9px 0 0;color:#7c6e89}
+.auctra-question-note strong{font-weight:500;color:#6e607d}
+.auctra-section .auctra-context-line{font-size:12px;color:#919983;margin:13px 0 0;max-width:720px}
+.auctra-section .flow-widget{margin-top:24px;padding-top:20px}
+.auctra-section .flow-topline{display:none}
+.auctra-section .flow-nodes{margin-top:0}
+.auctra-section .flow-node{min-height:135px}
+.auctra-section .flow-bottom p{margin:0;font-size:12px;line-height:1.65}
+.auctra-outcomes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:22px 0 12px}
+.auctra-outcomes>div{padding:9px 16px 3px;border-left:2px solid #bcc7aa}
+.auctra-outcomes>.outcome-ask{border-color:#d8c392}
+.auctra-outcomes>.outcome-block{border-color:#caa5b1}
+.auctra-outcomes .hand{font-size:29px;color:#7b8e69}
+.outcome-ask .hand{color:#ac9567}.outcome-block .hand{color:#ac8292}
+.auctra-outcomes p{font-size:12px;line-height:1.65;margin:4px 0}
+.auctra-caption{display:block;font-size:10px;line-height:1.7;color:#929b86}
+.auctra-architecture{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:25px 0}
+.auctra-architecture article{background:#f3f1e9;border:1px solid #d9d7c7;border-radius:3px 8px 4px 3px;padding:20px 18px 10px}
+.auctra-architecture .doodle-icon{width:34px;height:34px;color:#9b9980;margin-bottom:16px}
+.auctra-architecture p{font-size:12px;line-height:1.8}
+.auctra-design-note{display:grid;grid-template-columns:145px 1fr;gap:22px;align-items:start;padding:8px 2px 0}
+.auctra-design-note .hand{font-size:24px;color:#9c8aa8;transform:rotate(-3deg)}
+.auctra-design-note p{font-size:13px;margin-bottom:0}
+.auctra-roadmap{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;padding:0;margin:30px 0 12px;counter-reset:stage}
+.auctra-roadmap li{counter-increment:stage;position:relative;padding-top:31px;border-top:1px dashed #bdc8ad}
+.auctra-roadmap li:before{content:counter(stage,decimal-leading-zero);position:absolute;top:-13px;left:0;border:1px solid #bcc8ad;width:25px;height:25px;display:grid;place-items:center;border-radius:50%;font-size:8px;background:#eff0e6;color:#7c8a70}
+.auctra-roadmap .tiny{font-size:8px;color:#929b86}
+.auctra-roadmap h3{font-size:15px;margin-top:10px}
+.auctra-roadmap p{font-size:12px;line-height:1.75}
+.auctra-questions{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin-top:23px}
+.auctra-questions>div{display:flex;gap:13px;padding:16px 0;border-top:1px dashed #d5d9cb}
+.auctra-questions>div>span{font:24px var(--hand);color:#9b8ca7;flex-shrink:0}
+.auctra-questions p{font-size:13px;margin:0}
+.auctra-questions strong{font-weight:500;color:#53604b}
+.auctra-outcome{padding:37px 0 12px;text-align:center}
+.auctra-outcome>.hand{font-size:26px;color:#a28baa}
+.auctra-outcome h2{font-size:31px;margin:9px 0 12px}
+.auctra-outcome p{font-size:12px;line-height:1.85;color:var(--case-muted);margin:4px 0}
+.auctra-outcome .auctra-takeaway{display:block;font-size:25px;line-height:1.4;color:#8a9b7e;margin:22px auto 0;max-width:530px}
+@media(max-width:1050px){.auctra-architecture{gap:12px}.auctra-architecture article{padding:17px 13px 7px}.auctra-roadmap{gap:12px}.auctra-two-col{gap:23px}}
+@media(max-width:650px){
+  .auctra-header{padding:26px 0 24px}.auctra-header h1{font-size:48px;letter-spacing:-2px}.auctra-thesis{font-size:29px;margin-bottom:16px}.auctra-lead{font-size:14px;line-height:1.8}.auctra-context{font-size:9px;gap:10px 15px}
+  .auctra-index{gap:4px 18px;padding:12px 0}.auctra-index a{font-size:21px;min-height:44px;display:flex;align-items:center}
+  .auctra-section{padding:31px 0 28px;scroll-margin-top:85px}.auctra-study h2{font-size:26px;letter-spacing:-.65px}.auctra-study h2.hand{font-size:29px}.auctra-section p{font-size:13px}
+  .auctra-two-col{grid-template-columns:1fr;gap:16px}.auctra-question-note{padding:17px 20px}.auctra-section .auctra-context-line{font-size:11px;margin-top:22px}.auctra-caption{font-size:9px}
+  .auctra-outcomes{grid-template-columns:1fr;gap:13px}.auctra-outcomes>div{display:grid;grid-template-columns:60px 1fr;gap:12px;padding:5px 12px;align-items:center}.auctra-outcomes p{font-size:12px;margin:0}
+  .auctra-architecture{grid-template-columns:1fr;gap:14px}.auctra-architecture article{padding:20px 18px 10px}.auctra-architecture .doodle-icon{float:right;margin:0 0 12px 12px}.auctra-architecture p{font-size:12px}.auctra-architecture h3{padding-right:40px}
+  .auctra-design-note{grid-template-columns:1fr;gap:9px}.auctra-design-note .hand{transform:none}.auctra-design-note p{font-size:12px}
+  .auctra-roadmap{grid-template-columns:1fr 1fr;gap:25px 20px;margin-top:34px}.auctra-roadmap p{font-size:12px}.auctra-roadmap h3{font-size:15px}
+  .auctra-questions{grid-template-columns:1fr}.auctra-questions p{font-size:12px}.auctra-outcome{padding-top:28px}.auctra-outcome h2{font-size:29px}.auctra-outcome .auctra-takeaway{font-size:24px}
+}
+@media(prefers-reduced-motion:reduce){.auctra-index a{transition:none}}

@@ -1,0 +1,22 @@
+.contact-page{max-width:750px;margin:0 auto;padding:32px 0 38px}
+.contact-intro h1{font:600 60px/1.1 var(--display);letter-spacing:-2px;margin:0 0 16px}
+.contact-intro h1 .hand{font-family:var(--hand);font-size:74px;font-weight:500;color:#a17f91;letter-spacing:0}
+.contact-intro>p{font-size:15px;line-height:1.85;color:#7c8872;margin:0}
+.contact-postcard{position:relative;padding:34px 30px 25px;border:1px solid #d4d5c6;border-radius:3px 8px 4px 2px;background:#f8f5e9;box-shadow:4px 5px 0 #b7bfaa22;margin:39px 0 26px}
+.contact-postcard>.tape{width:80px;height:20px;left:32px;top:-10px;background:#d7e1dfaa;transform:rotate(-4deg)}
+.contact-postage{position:absolute;right:26px;top:23px;width:62px;min-height:72px;padding:9px 6px 4px;border:1px dashed #c9aabb;display:grid;justify-items:center;align-content:center;background:#f0dfe855;color:#b18a9e;transform:rotate(7deg)}
+.contact-postage .doodle-icon{width:28px;height:28px}.contact-postage .hand{font-size:19px}
+.contact-to{display:block;font-size:32px;line-height:1.4;color:#8b9980;margin:8px 85px 25px 0}
+.contact-postcard>label{display:block;color:#8e9683;margin-bottom:10px;font-size:9px;letter-spacing:1px}
+.contact-email-row{display:flex;gap:11px;align-items:center}
+.contact-email-row input{font:400 16px/1.4 'DM Sans',sans-serif;letter-spacing:-.2px;background:#fffdf6;border:1px solid #d5dacb;border-radius:3px 5px 3px 4px;padding:14px 13px;min-width:0;flex:1;color:#4d5e45;cursor:text;user-select:text}
+.contact-copy{display:inline-flex;align-items:center;justify-content:center;gap:9px;font:500 12px 'DM Sans',sans-serif;background:#e4ebd9;color:#536448;padding:13px 15px;min-height:49px;border:1px solid #bdc9ad;border-radius:4px 7px 2px 5px;cursor:pointer;white-space:nowrap}
+.contact-copy[hidden]{display:none}.contact-copy:disabled{opacity:.65;cursor:wait}.contact-copy .doodle-icon{width:20px;height:20px}
+.contact-email-row input:focus-visible,.contact-copy:focus-visible{outline:2px solid #8ba294;outline-offset:3px}
+.contact-copy-status{font-size:12px;line-height:1.5;min-height:20px;color:#839774;margin:11px 0 18px;overflow-wrap:anywhere}
+.contact-social{border-top:1px dashed #d8d8c6;padding-top:20px;display:flex;gap:20px;align-items:center;justify-content:space-between}
+.contact-social>.hand{font-size:26px;color:#9c90a4}
+.contact-social>a{display:inline-flex;align-items:center;gap:15px;font-size:13px;color:#718b96;min-height:44px;padding:5px 0;border-bottom:1px solid #b9cbd0}
+.contact-social>a .doodle-icon{width:22px;height:22px}
+.contact-back{font-size:12px;color:#929c85;min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:650px){.contact-page{padding:20px 0 16px}.contact-intro h1{font-size:44px;letter-spacing:-1.5px}.contact-intro h1 .hand{font-size:56px}.contact-intro>p{font-size:13px}.contact-postcard{padding:26px 17px 18px;margin-top:31px}.contact-postage{right:16px;top:18px;width:46px;min-height:58px;padding:5px}.contact-postage .doodle-icon{width:23px;height:23px}.contact-postage .hand{font-size:17px}.contact-to{font-size:28px;margin-right:55px;margin-bottom:26px}.contact-email-row{flex-direction:column;align-items:stretch;gap:12px}.contact-email-row input{width:100%;font-size:16px;padding:13px 8px;letter-spacing:-.5px}.contact-copy{min-height:46px}.contact-social{gap:15px;align-items:center}.contact-social>.hand{font-size:23px}.contact-social>a{font-size:12px;gap:7px}.contact-copy-status{font-size:11px}}

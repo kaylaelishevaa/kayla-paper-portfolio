@@ -1,0 +1,9 @@
+{
+  "name": "kayla-paper-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kayla's paper-and-doodle portfolio, ready for Vercel.",
+  "scripts": { "build": "node scripts/build.mjs", "dev": "node scripts/build.mjs && node scripts/serve.mjs", "preview": "node scripts/serve.mjs", "check": "node scripts/check.mjs" },
+  "engines": { "node": ">=20" }
+}

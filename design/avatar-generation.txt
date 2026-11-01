@@ -1,0 +1,31 @@
+Generated with the built-in image_gen tool. Technical export: normalized to a 1600×800 WebP atlas and a 400×400 resting poster. Frames 2 and 7 (one-based) were excluded from the animation because they changed the wrong hand; remaining poses are used for the wave.
+
+Use case: identity-preserve.
+Asset type: transparent 8-frame animation sprite sheet for a personal portfolio avatar.
+Edit target/reference: the attached existing Kayla avatar. Preserve this exact recognizable face, long straight dark hair, pink knit cardigan, white top, ivory laptop with small pink heart, soft premium 3D-render style, camera angle and lighting.
+
+Create ONE sprite atlas in a strict 4-column by 2-row grid of EIGHT equal square cells on a true transparent background, overall 2:1 aspect ratio (ideally 2048x1024). All cells must contain the SAME full waist-up character and laptop, EXACTLY the same scale, center anchor, head location and laptop location, with generous identical margins. No cropping any fingers or hair. No grid lines, borders, labels, text, motion marks, or speech bubbles. The only change across frames is the visible arm on the VIEWER'S RIGHT making a friendly hello wave. Keep face, head, torso, laptop and other hand visually identical across every frame.
+
+Reading order top left to bottom right:
+Frame 1: original relaxed pose, visible hand resting on laptop keyboard.
+Frame 2: that forearm lifts halfway, elbow still at the side, open palm near chest.
+Frame 3: hand raised beside her face on viewer's right, elbow bent, palm faces viewer with five natural fingers, wrist tilts gently outward.
+Frame 4: same raised arm and elbow, wrist tilts gently inward for the opposite wave pose.
+Frame 5: same raised arm, palm tilts outward again.
+Frame 6: same raised arm, palm tilts inward again.
+Frame 7: forearm lowers halfway toward keyboard.
+Frame 8: exact original resting pose as Frame 1.
+
+Treat this as eight aligned frames of one locked-camera animation, not eight different portraits. Keep the laptop completely stationary. Friendly subtle smile. Clean transparent alpha around each isolated sprite. The raised hand should be clearly separated from the hair and face. Do not add props.
+
+REVISION PASS
+
+Use case: precise-object-edit.
+Edit target: attached eight-frame transparent avatar sprite atlas.
+Make one targeted correction pass. Keep the exact same 4-column x 2-row arrangement, same 8 equal square cells, the character's recognizable face, long black hair, pink cardigan, white top, ivory laptop, framing, scale, poses 1/3/4/5/6/8, and 3D-render style.
+
+1. Clean the transparent alpha thoroughly: remove ALL stray colored pixels, red/yellow/white fragments, floating ghost patches, speckles and debris outside the subjects. Each cell must contain only one clean character and laptop cutout, with transparent empty space. Hair and finger contours must be clean.
+2. Fix frames 2 and 7: lift/lower the SAME arm on the VIEWER'S RIGHT as in frames 3–6. The other hand remains on the keyboard. No hand should appear on the viewer's left. Frame 2 is the right-side hand halfway lifted beside the shoulder. Frame 7 is that same hand lowering from the wave.
+3. Preserve a locked-camera animation: identical head position, face proportions, laptop location and body size in all cells. No change of smile or expression.
+
+No labels, text, grid lines, marks or backgrounds. True transparent alpha. Exact 2:1 atlas aspect, 4 equal columns and 2 equal rows.
