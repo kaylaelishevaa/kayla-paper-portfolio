@@ -36,7 +36,7 @@ const homeText = home.toString();
 const educationText = await readFile(resolve(root,'education.html'),'utf8');
 for (const phrase of ['Monash University','Monash College','Purwadhika School']) if(!educationText.includes(phrase)) errors.push(`Education page missing ${phrase}`);
 const experienceText = await readFile(resolve(root,'experience.html'),'utf8');
-for (const phrase of ['Unitree Go2','Software Engineer Intern','Mid Nov 2026','Coldwell Banker','Case Squad','MUMTEC']) if(!experienceText.includes(phrase)) errors.push(`Experience page missing ${phrase}`);
+for (const phrase of ['Unitree Go2','Software Engineer Intern','Nov 2026 – Feb 2027','Coldwell Banker','Case Squad','MUMTEC']) if(!experienceText.includes(phrase)) errors.push(`Experience page missing ${phrase}`);
 const projectsText = await readFile(resolve(root,'projects.html'),'utf8');
 const marginPocket = projectsText.match(/<details class="margin-pocket"[^>]*>([\s\S]*?)<\/details>/)?.[1] || '';
 if(!marginPocket.includes('Auctra')) errors.push('Auctra must be inside the project margins.');
