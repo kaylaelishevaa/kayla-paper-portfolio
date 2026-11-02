@@ -9,5 +9,6 @@ export const experience = [
 export const education = [
   { date: 'Jul 2026 – Jul 2028 (expected)', institution: 'Monash University', qualification: 'Bachelor of Computer Science', note: '' },
   { date: 'Feb 2025 – Jan 2026', institution: 'Monash College', qualification: 'Diploma of IT, Computer Science', note: 'Top of cohort · Academic Merit Award' },
-  { date: 'Oct 2024 – Feb 2025', institution: 'Purwadhika School', qualification: 'Full Stack Web Development Bootcamp', note: 'Certified' }
+  { date: 'Oct 2024 – Feb 2025', institution: 'Purwadhika School', qualification: 'Full Stack Web Development Bootcamp', note: 'Certified' },
+  { date: 'Jun 2023 – Jul 2024', institution: 'SMAK1 BPK Penabur', qualification: 'Senior High School', note: '' }
 ];
